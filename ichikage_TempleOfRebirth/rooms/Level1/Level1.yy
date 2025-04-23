@@ -26,7 +26,7 @@
         {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":"_filter_gradient","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
-        {"name":"g_GradientColour1","type":1,"value":"#FF0000FF",},
+        {"name":"g_GradientColour1","type":1,"value":"#FF007FFF",},
         {"name":"g_GradientColour2","type":1,"value":"#FFFF0000",},
         {"name":"g_GradientPosition1","type":0,"value":"0",},
         {"name":"g_GradientPosition1","type":0,"value":"0",},

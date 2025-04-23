@@ -7,7 +7,7 @@ collision_tilemap = layer_tilemap_get_id("level_tiles");
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4133C930
-/// @DnDArgument : "expr" "0layer_tilemap_get_id("death_zone")"
-/// @DnDArgument : "var" "collision_tilemap_death_zone"
-collision_tilemap_death_zone = 0layer_tilemap_get_id("death_zone");
+/// @DnDHash : 48ECFB1B
+/// @DnDArgument : "expr" "move_x * walk_speed"
+/// @DnDArgument : "var" "move_x"
+move_x = move_x * walk_speed;
