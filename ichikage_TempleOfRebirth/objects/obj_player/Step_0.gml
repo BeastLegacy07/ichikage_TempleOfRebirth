@@ -1,16 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 69BC352B
-/// @DnDArgument : "expr" "keyboard_check(vk_left) || gamepad_button_check(0,gp_padl) || (gamepad_axis_value(0,gp_axislh) < -0.2)"
-/// @DnDArgument : "var" "control_input_left"
-control_input_left = keyboard_check(vk_left) || gamepad_button_check(0,gp_padl) || (gamepad_axis_value(0,gp_axislh) < -0.2);
+/// @DnDHash : 534EFEF2
+/// @DnDDisabled : 1
+/// @DnDArgument : "expr" "keyboard_check(vk_right) - keyboard_check(vk_left)"
+/// @DnDArgument : "var" "move_x"
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 32369F66
-/// @DnDArgument : "expr" "keyboard_check(vk_right) || gamepad_button_check(0,gp_padr) || (gamepad_axis_value(0,gp_axislh) > 0.2)"
-/// @DnDArgument : "var" "control_input_right"
-control_input_right = keyboard_check(vk_right) || gamepad_button_check(0,gp_padr) || (gamepad_axis_value(0,gp_axislh) > 0.2);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -38,9 +32,8 @@ show_debug_message(string("move_x"));
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_levels_tiles"
-/// @DnDSaveInfo : "object" "obj_levels_tiles"
-var l45678302_0 = instance_place(x + 0, y + 2, [obj_levels_tiles]);
+/// @DnDArgument : "object" "collision_tilemap"
+var l45678302_0 = instance_place(x + 0, y + 2, [collision_tilemap]);
 if ((l45678302_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -65,11 +58,6 @@ if ((l45678302_0 > 0))
 		/// @DnDArgument : "expr" "-jump_speed"
 		/// @DnDArgument : "var" "move_y"
 		move_y = -jump_speed;
-	
-		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 22C0A3DC
-		/// @DnDParent : 17C047C1
 	}
 
 	/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed

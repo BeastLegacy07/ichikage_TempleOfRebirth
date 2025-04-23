@@ -33,8 +33,8 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 091FFA6C
-/// @DnDArgument : "msg" ""move_x""
-show_debug_message(string("move_x"));
+/// @DnDArgument : "msg" "move_x"
+show_debug_message(string(move_x));
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
