@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_enemy_parent",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_powerUp","path":"objects/obj_powerUp/obj_powerUp.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_enemy_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

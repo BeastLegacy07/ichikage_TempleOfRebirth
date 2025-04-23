@@ -35,6 +35,7 @@
   "name":"ichikage_TempleOfRebirth",
   "resources":[
     {"id":{"name":"obj_deathzone","path":"objects/obj_deathzone/obj_deathzone.yy",},},
+    {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_gemCoin","path":"objects/obj_gemCoin/obj_gemCoin.yy",},},
     {"id":{"name":"obj_levels_tiles","path":"objects/obj_levels_tiles/obj_levels_tiles.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -47,6 +48,9 @@
     {"id":{"name":"snd_powerUp","path":"sounds/snd_powerUp/snd_powerUp.yy",},},
     {"id":{"name":"levels_tiles","path":"sprites/levels_tiles/levels_tiles.yy",},},
     {"id":{"name":"spr_deathzone","path":"sprites/spr_deathzone/spr_deathzone.yy",},},
+    {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
+    {"id":{"name":"spr_enemy_jump","path":"sprites/spr_enemy_jump/spr_enemy_jump.yy",},},
+    {"id":{"name":"spr_enemy_walk","path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},},
     {"id":{"name":"spr_gemCoin","path":"sprites/spr_gemCoin/spr_gemCoin.yy",},},
     {"id":{"name":"spr_levels_tiles","path":"sprites/spr_levels_tiles/spr_levels_tiles.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
