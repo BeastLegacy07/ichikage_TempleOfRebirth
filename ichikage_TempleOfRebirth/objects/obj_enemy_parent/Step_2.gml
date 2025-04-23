@@ -69,9 +69,8 @@ if ((l36E29D89_0 > 0))
 	/// @DnDHash : 24DC456F
 	/// @DnDParent : 36E29D89
 	/// @DnDArgument : "var" "move_x"
-	/// @DnDArgument : "op" "4"
 	/// @DnDArgument : "value" "1"
-	if(move_x >= 1)
+	if(move_x == 1)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -108,8 +107,7 @@ if ((l36E29D89_0 > 0))
 /// @DnDHash : 0CAF35E1
 /// @DnDArgument : "var" "move_x"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "-1"
-if(move_x <= -1)
+if(move_x <= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
