@@ -77,9 +77,9 @@ if ((l36E29D89_0 > 0))
 		/// @DnDHash : 302B294F
 		/// @DnDParent : 24DC456F
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_enemy_walk"
-		/// @DnDSaveInfo : "spriteind" "spr_enemy_walk"
-		sprite_index = spr_enemy_walk;
+		/// @DnDArgument : "spriteind" "spr_player_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_player_walk"
+		sprite_index = spr_player_walk;
 		image_index += 0;
 	}
 
@@ -95,9 +95,9 @@ if ((l36E29D89_0 > 0))
 		/// @DnDHash : 6C9211E1
 		/// @DnDParent : 1508E9E2
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_enemy_idle"
-		/// @DnDSaveInfo : "spriteind" "spr_enemy_idle"
-		sprite_index = spr_enemy_idle;
+		/// @DnDArgument : "spriteind" "spr_player_idle"
+		/// @DnDSaveInfo : "spriteind" "spr_player_idle"
+		sprite_index = spr_player_idle;
 		image_index += 0;
 	}
 }
