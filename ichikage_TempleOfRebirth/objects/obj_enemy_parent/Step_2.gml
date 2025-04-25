@@ -1,9 +1,11 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 555EEC79
+/// @DnDApplyTo : {obj_enemy_parent}
 /// @DnDArgument : "var" "move_y"
 /// @DnDArgument : "op" "1"
-if(move_y < 0)
+with(obj_enemy_parent) var l555EEC79_0 = move_y < 0;
+if(l555EEC79_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -19,9 +21,11 @@ if(move_y < 0)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3CEB9001
+/// @DnDApplyTo : {obj_enemy_parent}
 /// @DnDArgument : "var" "move_y"
 /// @DnDArgument : "op" "2"
-if(move_y > 0)
+with(obj_enemy_parent) var l3CEB9001_0 = move_y > 0;
+if(l3CEB9001_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -37,11 +41,14 @@ if(move_y > 0)
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 36E29D89
+/// @DnDApplyTo : {obj_enemy_parent}
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "collision_tilemap"
+with(obj_enemy_parent) {
 var l36E29D89_0 = instance_place(x + 0, y + 2, [collision_tilemap]);
+}
 if ((l36E29D89_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
