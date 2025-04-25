@@ -14,9 +14,3 @@ effect_create_below(0, 0, 0, 2, $FF0000FF & $ffffff);
 /// @DnDVersion : 1
 /// @DnDHash : 2D057533
 variable = 0;
-
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1.1
-/// @DnDHash : 5D267337
-/// @DnDArgument : "soundid" "snd_powerUp"
-audio_play_sound(snd_powerUp, 0, 0, 1.0, undefined, 1.0);

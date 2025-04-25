@@ -44,8 +44,6 @@
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"id":{"name":"main_menu","path":"rooms/main_menu/main_menu.yy",},},
-    {"id":{"name":"snd_gem","path":"sounds/snd_gem/snd_gem.yy",},},
-    {"id":{"name":"snd_powerUp","path":"sounds/snd_powerUp/snd_powerUp.yy",},},
     {"id":{"name":"levels_tiles","path":"sprites/levels_tiles/levels_tiles.yy",},},
     {"id":{"name":"spr_deathzone","path":"sprites/spr_deathzone/spr_deathzone.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
@@ -63,8 +61,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"main_menu","path":"rooms/main_menu/main_menu.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"main_menu","path":"rooms/main_menu/main_menu.yy",},},
     {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"roomId":{"name":"Boss_Battle","path":"rooms/Boss_Battle/Boss_Battle.yy",},},
   ],

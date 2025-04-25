@@ -65,11 +65,6 @@ if ((l45678302_0 > 0))
 		/// @DnDArgument : "expr" "-jump_speed"
 		/// @DnDArgument : "var" "move_y"
 		move_y = -jump_speed;
-	
-		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 22C0A3DC
-		/// @DnDParent : 17C047C1
 	}
 
 	/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
