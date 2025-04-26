@@ -144,7 +144,8 @@ else
 /// @DnDHash : 098365E0
 /// @DnDArgument : "xvel" "move_x"
 /// @DnDArgument : "yvel" "move_y"
+/// @DnDArgument : "num_iterations" "2"
 /// @DnDArgument : "maxxmove" "walk_speed"
 /// @DnDArgument : "maxymove" "jump_speed"
 /// @DnDArgument : "object" "collision_tilemap"
-move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
+move_and_collide(move_x, move_y, collision_tilemap,2,0,0,walk_speed,jump_speed);
