@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 4B277A1F
-/// @DnDArgument : "room" "MAIN_MENU_2"
-/// @DnDSaveInfo : "room" "MAIN_MENU_2"
-room_goto(MAIN_MENU_2);
+/// @DnDArgument : "room" "level2"
+/// @DnDSaveInfo : "room" "level2"
+room_goto(level2);
