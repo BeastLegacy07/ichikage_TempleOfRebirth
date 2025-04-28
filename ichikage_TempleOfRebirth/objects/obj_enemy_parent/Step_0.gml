@@ -1,29 +1,5 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 69BC352B
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "keyboard_check(vk_left) || gamepad_button_check(0,gp_padl) || (gamepad_axis_value(0,gp_axislh) < -0.2)"
-/// @DnDArgument : "var" "control_input_left"
-
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 32369F66
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "keyboard_check(vk_right) || gamepad_button_check(0,gp_padr) || (gamepad_axis_value(0,gp_axislh) > 0.2)"
-/// @DnDArgument : "var" "control_input_right"
-
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 54F1C120
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "control_input_left - control_input_right"
-/// @DnDArgument : "var" "move_x"
-
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 0B98D326
 /// @DnDDisabled : 1
 /// @DnDArgument : "expr" "move_x * walk_speed"
@@ -63,6 +39,7 @@ if ((l45678302_0 > 0))
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 63BDE777
+	/// @DnDComment : is there wall?$(13_10)
 	/// @DnDParent : 45678302
 	/// @DnDArgument : "x" "x + (25 * sign(move_x))"
 	/// @DnDArgument : "y_relative" "1"
@@ -144,8 +121,7 @@ else
 /// @DnDHash : 098365E0
 /// @DnDArgument : "xvel" "move_x"
 /// @DnDArgument : "yvel" "move_y"
-/// @DnDArgument : "num_iterations" "2"
 /// @DnDArgument : "maxxmove" "walk_speed"
 /// @DnDArgument : "maxymove" "jump_speed"
 /// @DnDArgument : "object" "collision_tilemap"
-move_and_collide(move_x, move_y, collision_tilemap,2,0,0,walk_speed,jump_speed);
+move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
