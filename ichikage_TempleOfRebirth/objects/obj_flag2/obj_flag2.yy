@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_BUTTONTOBOSSBATTLE",
+  "%Name":"obj_flag2",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_BUTTONTOBOSSBATTLE",
+  "name":"obj_flag2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_BOSSTIME",
-    "path":"sprites/spr_button_BOSSTIME/spr_button_BOSSTIME.yy",
+    "name":"spr_flag2",
+    "path":"sprites/spr_flag2/spr_flag2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
