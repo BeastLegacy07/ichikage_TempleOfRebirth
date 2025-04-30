@@ -118,19 +118,16 @@ else
 /// @DnDArgument : "object" "collision_tilemap"
 move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
 
-/// @DnDAction : YoYo Games.Collisions.If_Object_At
-/// @DnDVersion : 1.1
-/// @DnDHash : 0F673883
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "2"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "collision_tilemap_death_zone"
-var l0F673883_0 = instance_place(x + 0, y + 2, [collision_tilemap_death_zone]);
-if ((l0F673883_0 > 0))
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 65ABE6F0
+/// @DnDArgument : "var" "lives"
+/// @DnDArgument : "op" "3"
+if(lives <= 0)
 {
 	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 46A93BEA
-	/// @DnDParent : 0F673883
+	/// @DnDHash : 667B4FEE
+	/// @DnDParent : 65ABE6F0
 	room_restart();
 }

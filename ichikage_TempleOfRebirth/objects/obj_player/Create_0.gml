@@ -7,7 +7,13 @@ collision_tilemap = layer_tilemap_get_id("level_tiles");
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4133C930
-/// @DnDArgument : "expr" "layer_tilemap_get_id("death_zone")"
-/// @DnDArgument : "var" "collision_tilemap_death_zone"
-collision_tilemap_death_zone = layer_tilemap_get_id("death_zone");
+/// @DnDHash : 5BAA882D
+/// @DnDArgument : "var" "score"
+score = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7FAD312F
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "lives"
+lives = 3;

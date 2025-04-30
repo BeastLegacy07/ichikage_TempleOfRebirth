@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boss_battle",
-  "eventList":[],
+  "%Name":"obj_enemy4",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_boss_battle",
+  "name":"obj_enemy4",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss_battle",
-    "path":"sprites/spr_boss_battle/spr_boss_battle.yy",
+    "name":"spr_enemy4",
+    "path":"sprites/spr_enemy4/spr_enemy4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
