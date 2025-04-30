@@ -11,7 +11,7 @@
 /// @DnDDisabled : 1
 /// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "lives"
+/// @DnDArgument : "var" "obj_game_manager.mylives"
 
 
 /// @DnDAction : YoYo Games.Common.If_Variable

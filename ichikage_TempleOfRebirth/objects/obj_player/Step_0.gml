@@ -122,7 +122,7 @@ move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
 /// @DnDVersion : 1
 /// @DnDHash : 65ABE6F0
 /// @DnDDisabled : 1
-/// @DnDArgument : "var" "lives"
+/// @DnDArgument : "var" "mylives"
 /// @DnDArgument : "op" "3"
 /// @DnDAction : YoYo Games.Rooms.Restart_Room
 /// @DnDVersion : 1

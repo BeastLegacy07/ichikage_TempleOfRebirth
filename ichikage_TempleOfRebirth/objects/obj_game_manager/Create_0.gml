@@ -3,4 +3,4 @@
 /// @DnDHash : 4FD38B25
 /// @DnDDisabled : 1
 /// @DnDArgument : "expr" "3"
-/// @DnDArgument : "var" "lives"
+/// @DnDArgument : "var" "mylives"
