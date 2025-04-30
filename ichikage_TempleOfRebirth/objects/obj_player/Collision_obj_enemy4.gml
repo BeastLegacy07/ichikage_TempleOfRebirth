@@ -9,3 +9,8 @@ with(obj_player) instance_destroy();
 /// @DnDHash : 0339BADB
 /// @DnDArgument : "color" "$FF118CFF"
 effect_create_below(0, 0, 0, 0, $FF118CFF & $ffffff);
+
+/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDVersion : 1
+/// @DnDHash : 219FF51C
+room_restart();

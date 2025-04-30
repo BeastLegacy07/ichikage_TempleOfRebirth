@@ -121,13 +121,11 @@ move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65ABE6F0
+/// @DnDDisabled : 1
 /// @DnDArgument : "var" "lives"
 /// @DnDArgument : "op" "3"
-if(lives <= 0)
-{
-	/// @DnDAction : YoYo Games.Rooms.Restart_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 667B4FEE
-	/// @DnDParent : 65ABE6F0
-	room_restart();
-}
+/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDVersion : 1
+/// @DnDHash : 667B4FEE
+/// @DnDDisabled : 1
+/// @DnDParent : 65ABE6F0
